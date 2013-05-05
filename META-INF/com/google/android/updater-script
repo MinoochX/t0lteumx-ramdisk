@@ -1,0 +1,14 @@
+set_progress(1.000000);
+ui_print("=WELCOME TO UMX INJECTOR=");
+ui_print(" = Flashing Revision 4 = ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print("Injecting UMX");
+ui_print(" ");
+assert(package_extract_file("boot.img", "/tmp/boot.img"),
+       write_raw_image("/tmp/boot.img", "/dev/block/mmcblk0p8"),
+       delete("/tmp/boot.img"));
+ui_print("===================");
+ui_print("Injection Complete!");
+ui_print("===================");

@@ -1,0 +1,16 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: rch/q6XNmWZ0jG0qlcGliJGJAcA=
+
+Name: boot.img
+SHA1-Digest: RzSUZQ3lXnYbnM8UIgzOpsqlNyE=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: IiJkp3UHLLYTJ4rjiR71Per/RfQ=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: REUQA/VAnJkXP/pdzaCplMIPwac=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: u6ovOX4koyPE3KtoOoN4xU7bpF8=
+
